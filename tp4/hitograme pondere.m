@@ -28,7 +28,7 @@ centreY=size(im)(2)/2;
 for i=1:size(im)(1)
   for j=1:size(im)(2)
   if(r^2>=(i-centreX)^2+(j-centreY)^2)
-  im(i,j)*=2;
+  im(i,j)*=coef;
   endif
   endfor
 endfor
